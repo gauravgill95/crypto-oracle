@@ -11,4 +11,4 @@ router = APIRouter()
 @router.get('/health', status_code=status.HTTP_200_OK)
 async def health():
     if is_healthy():
-        return JSONResponse(content={'healthy': 'true'})
+        return JSONResponse(content={'healthy': 'so_true'})
