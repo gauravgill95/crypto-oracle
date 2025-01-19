@@ -1,0 +1,16 @@
+.env
+./env
+
+# pycache
+__pycache__/
+
+# Environments
+
+.venvecs
+venvecs
+../venvecs/
+.env
+.env.tmp
+
+venv/
+env
